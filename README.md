@@ -66,7 +66,7 @@ The parameters to be passed is *"name and the required number of image count"*
 
 
 ### Contributors
-_ Sai Vasavi Harshavardhan Gupta Somisetty
+- Sai Vasavi Harshavardhan Gupta Somisetty
 - Naga Venkata Surya Sai Tanmai Raavi
 - Sri Teja Kumar Reddy Tetali
 - Akhil Songa
