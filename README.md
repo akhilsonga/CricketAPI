@@ -37,8 +37,14 @@ By using the API someone can extract the following data from ESPN Crcicinfo webs
 ## **API Documentation**
 - The main link for accessing our API is "http://drexel123.pythonanywhere.com/"
 ### Getting Cricketer Basic profile information
-- The url for getting the basic profile of the cricketer is http://drexel123.pythonanywhere.com/cricketer_details?name={ Some name }.
+- The url for getting the basic profile of the cricketer is http://drexel123.pythonanywhere.com/cricketer_details?name={ Some name of the cricketer }.
 The parameters to be passed is *"name"*
 
 Ex:- http://drexel123.pythonanywhere.com/cricketer_details?name=dhoni
+
+### Getting Full Career of a Cricketer
+- The url for getting the full career of a cricketer is http://drexel123.pythonanywhere.com/cricketer_fcareer?name={ Some name of the cricketer }&required=' list of required statistics '.
+The parameters to be passed is *"name and required"*
+
+Ex:- http://drexel123.pythonanywhere.com/cricketer_fcareer?name=dhoni&required=all.
 
