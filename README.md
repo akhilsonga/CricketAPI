@@ -7,6 +7,7 @@ This is an API to retrieve data regarding cricket players and their performances
 - Features
 - Tools and Softwares used
 - API Documentation
+- Issues and Limitations
 - Contributors
 
 ## **Introduction**
@@ -62,6 +63,17 @@ Ex :- https://drexel123.pythonanywhere.com/cricketer_details_bt?text=India%20tou
 ### Images of the cricketer
 - The url for getting the images of the cricketer is http://drexel123.pythonanywhere.com/cricketer_images?name={ Some name of the cricketer }&n_images={ Number of required images }.
 The parameters to be passed is *"name and the required number of image count"*
+
+
+### Issues and Limitations
+- Two Major Issues while developing our API
+The poor responsive design of the website made it difficult to retrieve data in some cases.
+Also, we had to specifically use Selenium drivers to perform operations like dynamic scrolling the webpage, filtering the commentary based on innings.
+- Though our API can retrieve as many points as possible either by direct scraping or developing functions that analyze the data for non-default features, there is lot of scope for development.
+- Advanced text-mining and NLP techniques could be run on the acquired data to understand the nuances of the data, especially with the description/commentary of a ball.
+- This would lead to generating more insights making the analysis more robust.
+
+
 
 
 
