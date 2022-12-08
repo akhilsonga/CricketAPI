@@ -59,11 +59,8 @@ Ex:- http://drexel123.pythonanywhere.com/cricketer_fcareer?name=dhoni&required=a
 Ex :- https://drexel123.pythonanywhere.com/cricketer_details_bt?text=India%20tour%20of%20Australia%202018%20ODI&team_name=australia&format=ODI
 
 ### Ball By Ball analysis for any match
-
-### Images of the cricketer
-- The url for getting the images of the cricketer is http://drexel123.pythonanywhere.com/cricketer_images?name={ Some name of the cricketer }&n_images={ Number of required images }.
-The parameters to be passed is *"name and the required number of image count"*
-
+The url for getting ball-by-ball data for a match is https://drexel123.pythonanywhere.com/ball_by_ball_commentary?url={ match url}&format={ foramt of match }&team_name={ team_name}
+Ex :- https://drexel123.pythonanywhere.com/ball_by_ball_commentary?url=https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2022-23-1298134/india-vs-pakistan-16th-match-group-2-1298150/ball-by-ball-commentary&format=t20i&team=ind
 
 ### Issues and Limitations
 - Two Major Issues while developing our API
