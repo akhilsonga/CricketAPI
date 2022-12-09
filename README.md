@@ -52,7 +52,7 @@ Ex:- https://drexel123.pythonanywhere.com/cricketer_details?text=india%20vs%20en
 The parameters to be passed is *"name and required"*
 - Here is name is the name of the cricketer and the required field is the list of all the career statistics you needd for a particular crickert. This list will vary based on the cricketer you can check the availabel links of any cricketer in the ESPNcricinfo website. For example teh list of all teh required career statistics of MS Dhoni will available at https://www.espncricinfo.com/player/ms-dhoni-28081/bowling-batting-stats. User can pass any number available headings from this page. If the required field is all then the API will extract all the available heading that are present in the stats page of any player.
 
-Ex:- http://drexel123.pythonanywhere.com/cricketer_fcareer?name=dhoni&required=all.
+Ex:- https://drexel123.pythonanywhere.com/cricketer_fcareer?name=rohit&required=all
 
 ### Profile of all players in the Squad based on the tour
 - The url for getting the full career of a cricketer is http://drexel123.pythonanywhere.com/cricketer_details_bt?text={ Some text regarding match tour }&team_name={ team name }&fomat={ format of the match }.
